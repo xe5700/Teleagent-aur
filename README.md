@@ -1,14 +1,3 @@
----
-AIGC:
-  ContentProducer: '001191110102MAD55U9H0F10002'
-  ContentPropagator: '001191110102MAD55U9H0F10002'
-  Label: '1'
-  ProduceID: 'f13d47ff-58e4-429b-a519-ee2929ef82e8'
-  PropagateID: 'f13d47ff-58e4-429b-a519-ee2929ef82e8'
-  ReservedCode1: 'aab608e3-540b-4b14-81e0-2fa061c8668a'
-  ReservedCode2: 'aab608e3-540b-4b14-81e0-2fa061c8668a'
----
-
 # teleagent (AUR)
 
 星辰超级智能体 TeleAgent 桌面版（中国电信自研 AI 办公助手）的 Arch Linux / AUR 打包，
