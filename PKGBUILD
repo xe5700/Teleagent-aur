@@ -8,7 +8,7 @@
 # update.py 刷新 pkgver 与校验和。
 
 pkgname=teleagent
-pkgver=3.1.0
+pkgver=3.1.1
 pkgrel=1
 pkgdesc="星辰超级智能体 TeleAgent - 中国电信自研 AI 办公助手（桌面版）"
 arch=('x86_64' 'aarch64')
@@ -24,8 +24,8 @@ source=('teleagent-launcher.sh')
 source_x86_64=("teleagent-${pkgver}-amd64.deb::https://cdn01.teleai.com.cn/packages/${pkgver}/TeleAgent-${pkgver}-amd64.deb")
 source_aarch64=("teleagent-${pkgver}-arm64.deb::https://cdn01.teleai.com.cn/packages/${pkgver}/TeleAgent-${pkgver}-arm64.deb")
 sha256sums=('4e1abfd03a9e160aa75cfb93400327e7d34c47f2c09d06af553f100ea3c8886a')
-sha256sums_x86_64=('6ed1a50b4d274a8a111ac48f467f893dfaf77bd07b59e6b6a308d3b76cc06f58')
-sha256sums_aarch64=('a837914fbaac4b7caf3d4e00a5f4f2c7756d290ac1660fc569794114b0eaec86')
+sha256sums_x86_64=('ee43cd0b803c46b0e749025791452097354612e28c1cd314798b8c99b193498c')
+sha256sums_aarch64=('80b13bf2299e346ed460f773c52252bcdcee46961b6cec15c15bde9b19932895')
 
 package() {
     cd "$srcdir"
